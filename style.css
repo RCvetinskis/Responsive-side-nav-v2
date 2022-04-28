@@ -21,6 +21,9 @@ nav {
 .translate {
     transform: translateX(0)!important;
 }
+.rotate {
+    transform: rotateZ(-90deg);
+}
 nav a {
     text-decoration: none;
     color: orange;
@@ -29,6 +32,7 @@ nav a {
 }
 #burger{
     display: none;
+    transition: transform 0.3s;
 }
 /* sukuri klase kuria panaudosi JS toggle */
 .active {
